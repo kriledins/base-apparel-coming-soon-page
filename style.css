@@ -37,9 +37,10 @@ img {
 }
 
 #text {
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     color: var(--desred);
     padding: 20px 0 30px;
+    line-height: 1.5em;
 }
 
 #email {
@@ -48,12 +49,12 @@ img {
     height: 30px;
     padding-left: 10px;
     border-radius: 20px;
-    font-size: 0.75em;
+    font-size: 2vh;
     line-height: 0;
     color: var(--desred);
     text-align: left;
     vertical-align: middle;
-    width: 80%;
+    width: 70%;
     box-sizing: border-box;
 }
 
@@ -71,6 +72,7 @@ main {
         background-size: cover;
         padding-top: 3%;
         padding-left: 12%;
+        padding-right: 13%;
         box-sizing: border-box;
     }
 
