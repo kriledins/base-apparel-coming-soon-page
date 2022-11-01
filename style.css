@@ -6,5 +6,38 @@
     --darkgreyishred: hsl(0, 6%, 24%);
     --gradient1: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
     --gradient2: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    --font: "Josefin Sans", sans-serif;
 }
 
+* {
+    font-family: var(--font);
+    padding: 0;
+    margin: 0;
+}
+
+#thinh {
+    font-size: 20vh;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--desred);
+}
+
+#boldh {
+    font-size: 20vh;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--darkgreyishred)
+}
+
+#text {
+
+}
+
+#email {
+
+}
+
+.content {
+    background: url('./images/bg-pattern-desktop.svg'), var(--gradient1);
+    height: 100vh;
+}
