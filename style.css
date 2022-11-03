@@ -2,6 +2,7 @@
 
 :root {
     --desred: hsl(0, 36%, 70%);
+    --desredtrans: hsla(0, 36%, 70%, 40%);
     --softred: hsl(0, 93%, 68%);
     --darkgreyishred: hsl(0, 6%, 24%);
     --gradient1: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
@@ -15,17 +16,12 @@
     margin: 0;
 }
 
-img {
-    width: 25%;
-}
-
 #thinh {
     font-size: 7.5vh;
     font-weight: 300;
     text-transform: uppercase;
     color: var(--desred);
     letter-spacing: 0.2em;
-    padding-top: 50px;
 }
 
 #boldh {
@@ -72,6 +68,7 @@ form {
     background: var(--gradient2);
     background-repeat: no-repeat;
     background-position: center;
+    box-shadow: 0 2vh 3vh 0 var(--desredtrans);
     margin-left: -25%;
     display: flex;
     align-items: center;
@@ -93,13 +90,23 @@ main {
     flex-wrap: wrap;
 }
 
+.logo {
+    position:fixed;
+    padding-top: 5%;
+    padding-left: 12%;
+}
+
+.logo>img {
+    width: 10vw;
+}
+
 .content {
     background: url('./images/bg-pattern-desktop.svg'), var(--gradient1);
     width: 57%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 3%;
+    padding-top: 15%;
     padding-left: 12%;
     padding-right: 13%;
     box-sizing: border-box;
