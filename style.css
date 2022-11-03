@@ -20,7 +20,7 @@ img {
 }
 
 #thinh {
-    font-size: 9vh;
+    font-size: 10vh;
     font-weight: 300;
     text-transform: uppercase;
     color: var(--desred);
@@ -29,7 +29,7 @@ img {
 }
 
 #boldh {
-    font-size: 9vh;
+    font-size: 10vh;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -37,10 +37,16 @@ img {
 }
 
 #text {
-    font-size: 2.3vh;
+    font-size: 2.5vh;
+    font-weight: 600;
     color: var(--desred);
     padding: 20px 0 30px;
     line-height: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
 }
 
 #email {
@@ -49,13 +55,24 @@ img {
     height: 30px;
     padding-left: 10px;
     border-radius: 20px;
-    font-size: 2vh;
+    font-size: 2.5vh;
     line-height: 0;
     color: var(--desred);
     text-align: left;
     vertical-align: middle;
-    width: 70%;
+    width: 100%;
     box-sizing: border-box;
+}
+
+#submit {
+    width: 22%;
+    height: 30px;
+    border-radius: 30px;
+    border-style: none;
+    background: url(./images/icon-arrow.svg), var(--gradient2);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -50px;
 }
 
 main {
