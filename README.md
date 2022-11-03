@@ -4,3 +4,4 @@
 
 ## Welcome! 👋
 
+[View and test live site](https://kriledins.github.io/base-apparel-coming-soon-page/)
