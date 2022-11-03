@@ -93,23 +93,33 @@ main {
     flex-wrap: wrap;
 }
 
-    .content {
-        background: url('./images/bg-pattern-desktop.svg'), var(--gradient1);
-        width: 57%;
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 3%;
-        padding-left: 12%;
-        padding-right: 13%;
-        box-sizing: border-box;
-    }
+.content {
+    background: url('./images/bg-pattern-desktop.svg'), var(--gradient1);
+    width: 57%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3%;
+    padding-left: 12%;
+    padding-right: 13%;
+    box-sizing: border-box;
+}
 
 
-    .image {
-        background-image: url('./images/hero-desktop.jpg');
-        width: 43%;
-        height: 100vh;
-        background-repeat: no-repeat;
-        background-size: cover;
+.image {
+    background-image: url('./images/hero-desktop.jpg');
+    width: 43%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media screen and (orientation: portrait) {
+    main {
+        flex-direction: column;
     }
+    .content, .image {
+        width: 100%;
+    }
+}
