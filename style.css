@@ -52,9 +52,9 @@ form {
 #email {
     background: transparent;
     border: .5px solid var(--desred);
-    height: 30px;
-    padding-left: 10px;
-    border-radius: 20px;
+    height: 7vh;
+    padding-left: 2vw;
+    border-radius: 30px;
     font-size: 2.5vh;
     line-height: 0;
     color: var(--desred);
@@ -65,14 +65,23 @@ form {
 }
 
 #submit {
-    width: 22%;
-    height: 30px;
+    width: 25%;
+    height: 7vh;
     border-radius: 30px;
     border-style: none;
-    background: url(./images/icon-arrow.svg), var(--gradient2);
+    background: var(--gradient2);
     background-repeat: no-repeat;
     background-position: center;
     margin-left: -50px;
+}
+
+img {
+    width: 7px;
+    padding: 0;
+}
+
+::placeholder {
+    color: var(--desred);
 }
 
 main {
@@ -98,7 +107,6 @@ main {
         background-image: url('./images/hero-desktop.jpg');
         width: 43%;
         height: 100vh;
-        object-fit: cover;
         background-repeat: no-repeat;
         background-size: cover;
     }
