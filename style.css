@@ -75,6 +75,10 @@ form {
     justify-content: center;
 }
 
+#submit:hover {
+    background:hsl(0, 80%, 86%);
+}
+
 .icon {
     width: 1vw;
     padding: 0;
