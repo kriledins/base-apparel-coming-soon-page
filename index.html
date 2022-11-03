@@ -18,13 +18,15 @@
       <p id="boldh">coming soon</p>
       <p id="text">Hello fellow shoppers! We're currently building our new fashion store. 
       Add your email below to stay up-to-date with announcements and our launch deals.</p>
-      <form action="">
+      <form name="form">
         <input type="text" id="email" name="email" placeholder="Email Address">
-        <button type="submit" id="submit" value=""><img class="icon" src="./images/icon-arrow.svg"/></button>
+        <button type="button" id="submit" onclick="validateEmail(document.form.email)"><img class="icon" src="./images/icon-arrow.svg"/></button>
       </form>
+      <p id="message">bla</p>
     </div>
     <div class="image">
     </div>
   </main>
+<script src="validate.js"></script>
 </body>
 </html>
