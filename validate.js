@@ -6,5 +6,6 @@ function validateEmail(text) {
     }
     else {
         document.getElementById("message").innerHTML = "";
+        document.getElementById("email").style.border = ".5px solid var(--desred)";
     }
 }
