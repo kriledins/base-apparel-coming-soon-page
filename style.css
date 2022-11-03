@@ -94,6 +94,12 @@ input:-webkit-autofill, input:-webkit-autofill:focus {
     color: var(--desred);
 }
 
+p#message {
+    color: var(--softred);
+    padding-top: 1vh;
+    padding-left: 2vw;
+}
+
 main {
     display: flex;
     flex-direction: row;
