@@ -3,4 +3,7 @@ function validateEmail(text) {
     if (!text.value.match(emailFormat)) {
         document.getElementById("message").innerHTML = "Please provide a valid email";
     }
+    else {
+        document.getElementById("message").innerHTML = "";
+    }
 }
