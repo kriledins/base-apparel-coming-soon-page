@@ -77,7 +77,10 @@ form {
 
 #submit:hover {
     background:hsl(0, 80%, 86%);
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> 823c2ad758325484b0476bd30773d411a805f454
 }
 
 .icon {
