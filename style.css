@@ -43,6 +43,7 @@
 form {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 #email {
@@ -98,6 +99,13 @@ p#message {
     color: var(--softred);
     padding-top: 1vh;
     padding-left: 2vw;
+}
+
+
+form>img {
+    height: 4vh;
+    margin-left: -35%;
+    display: none; /* visible after email error */
 }
 
 main {
