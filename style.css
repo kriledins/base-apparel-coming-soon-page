@@ -153,4 +153,20 @@ main {
     .content, .image {
         width: 100%;
     }
+    .logo {
+        order: 1;
+        position: static;
+        padding-bottom: 5%;
+    }
+    .image {
+        order: 2;
+        background-image: url('./images/hero-mobile.jpg');
+        height: 50vh;
+    }
+    .content {
+        order: 3;
+    }
+    .logo>img {
+        width: 30vw;
+    }
 }
